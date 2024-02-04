@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+hr{
+  margin: 3% auto;
+  width: 90%;
+ height: 5px;
+  background-color: rgb(78, 13, 220);
+  border: none;
+}
+nav{
+  width: 90vw;
+  margin: 3% auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#logo_text p{
+
+  font-size: 2rem;
+  width: 30vw;
+}
+
+#info_container{
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30%;
+}
+
+ul{
+ list-style-type: none;
+}
+li {
+  display: inline;
+}
+
+li a {
+  display: inline;
+  color: rgb(78, 13, 220);
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.5vw;
+}
+ #main{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 10% 5%;
+  align-items: center;
+
+}
+#promo{
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+}
+#promo p{
+  line-height: 1.6;
+  color:  rgb(78, 13, 220);
+  width: 10vw;
+  font-size: 1.5rem;
+}
+
+#top_education{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  align-items: center;
+  color: rgb(245, 244, 247);
+  margin-right: 10%;
+  font-size: 1rem;
+
+}
+#top_education h2{
+  margin-bottom: 5%;
+}
+#top_education hr{
+  width: 15vw;
+  height: 5px;
+  background-color: rgb(78, 13, 220);
+  border: none;
+}
+#second{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+  
+align-items: center;
+
+height: 100vh;
+  background-image: url('./Fitness-training-and-balanced-nutrition-for-the-perfect-body.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+}
+#second h1{
+  font-size: 9rem;
+  color:black;
+  margin-left: 5%;
+}
+#second img{
+
+
+
+
+}
